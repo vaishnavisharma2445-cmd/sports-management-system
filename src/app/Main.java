@@ -1,6 +1,7 @@
 package app;
 
 import java.util.Scanner;
+import player.PlayerMenu;
 
 // Main class - Entry point for the Sports Management System
 public class Main {
@@ -32,7 +33,7 @@ public class Main {
             // Menu options
             switch (choice) {
                 case 1:
-                    System.out.println("\n[Player Management] - Coming soon!");
+                    PlayerMenu.showMenu(sc);
                     break;
                 case 2:
                     System.out.println("\n[Team Management] - Coming soon!");
