@@ -2,6 +2,7 @@ package app;
 
 import java.util.Scanner;
 import player.PlayerMenu;
+import team.TeamMenu;
 
 // Main class - Entry point for the Sports Management System
 public class Main {
@@ -36,7 +37,7 @@ public class Main {
                     PlayerMenu.showMenu(sc);
                     break;
                 case 2:
-                    System.out.println("\n[Team Management] - Coming soon!");
+                    TeamMenu.showMenu(sc);
                     break;
                 case 3:
                     System.out.println("\n[Match & Results] - Coming soon!");
