@@ -1,6 +1,8 @@
 package app;
 
 import java.util.Scanner;
+
+import match.MatchMenu;
 import player.PlayerMenu;
 import team.TeamMenu;
 
@@ -40,7 +42,8 @@ public class Main {
                     TeamMenu.showMenu(sc);
                     break;
                 case 3:
-                    System.out.println("\n[Match & Results] - Coming soon!");
+//                    System.out.println("\n[Match & Results] - Coming soon!");
+                	 MatchMenu.showMenu(sc);
                     break;
                 case 4:
                     System.out.println("\nExiting Sports Management System. Goodbye!");
