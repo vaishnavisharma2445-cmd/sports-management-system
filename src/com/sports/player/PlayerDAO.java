@@ -1,6 +1,6 @@
-package player;
+package com.sports.player;
 
-import db.DBConnection;
+import com.sports.db.DBConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

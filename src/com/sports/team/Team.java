@@ -1,4 +1,4 @@
-package team;
+package com.sports.team;
 
 // Team class - stores details of one team (OOP: encapsulation)
 public class Team {

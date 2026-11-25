@@ -1,10 +1,10 @@
-package app;
+package com.sports.app;
 
 import java.util.Scanner;
 
-import match.MatchMenu;
-import player.PlayerMenu;
-import team.TeamMenu;
+import com.sports.match.MatchMenu;
+import com.sports.player.PlayerMenu;
+import com.sports.team.TeamMenu;
 
 // Main class - Entry point for the Sports Management System
 public class Main {
@@ -42,7 +42,7 @@ public class Main {
                     TeamMenu.showMenu(sc);
                     break;
                 case 3:
-//                    System.out.println("\n[Match & Results] - Coming soon!");
+//                    
                 	 MatchMenu.showMenu(sc);
                     break;
                 case 4:
