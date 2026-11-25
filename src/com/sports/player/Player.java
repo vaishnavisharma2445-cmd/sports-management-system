@@ -1,4 +1,4 @@
-package player;
+package com.sports.player;
 
 // Player class - stores details of one player (OOP: encapsulation)
 public class Player {

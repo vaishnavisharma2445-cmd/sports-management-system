@@ -1,4 +1,4 @@
-package team;
+package com.sports.team;
 
 import java.util.List;
 import java.util.Scanner;

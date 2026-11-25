@@ -1,4 +1,4 @@
-package match;
+package com.sports.match;
 
 import java.util.List;
 import java.util.Scanner;

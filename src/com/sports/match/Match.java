@@ -1,4 +1,4 @@
-package match;
+package com.sports.match;
 
 // Match class - stores details of one match (OOP: encapsulation)
 public class Match {
